@@ -1,5 +1,3 @@
-package lab04;
-
 public class MatrixMultAlgorithms {
 	
 	// Iteration Matrix Multiplication
