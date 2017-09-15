@@ -1,7 +1,6 @@
 package lab04;
 
-public class lab04_neilManimtim {
-	// Problem 1:
+public class MatrixMultAlgorithms {
 	
 	// Iteration Matrix Multiplication
 	public static int[][] bruteForceIter(int[][] A, int[][] B, int n) {
@@ -47,9 +46,7 @@ public class lab04_neilManimtim {
 		
 		return C;
 	}
-	
-	// Problem 2:
-	
+
 	// Strassen's Method Matrix Multiplication
 	public static int[][] strassensMethod(int[][] A, int[][] B, int n) {
 		int[][] C = new int[n][n];
@@ -97,8 +94,7 @@ public class lab04_neilManimtim {
 		
 		return C;
 	}
-	
-	
+		
 	// Combine Sub-Matrices
 	public static int[][] combineMat(int[][] C11, int[][] C12, int[][] C21, int[][] C22) {
 		int n = C11.length;
